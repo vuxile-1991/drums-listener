@@ -52,12 +52,12 @@ function makeSound(key) {
       break;
 
     case "k":
-      let crash = new Audio('sounds/crash.mp3');
+      let crash = new Audio('sounds/kick-bass.mp3');
       crash.play();
       break;
 
     case "l":
-      let kick = new Audio('sounds/kick-bass.mp3');
+      let kick = new Audio('sounds/crash.mp3');
       kick.play();
       break;
 
